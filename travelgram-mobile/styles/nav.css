@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+
+  & a {
+
+    color: var(--text-color-secondary);
+  }
+}
+
+#profile-sm {
+width: 2.5rem;
+height: 2.5rem;
+
+}
+
+@media (width >= 80em ) {
+  
+  nav {
+  justify-content: space-between;
+}
+
+}
